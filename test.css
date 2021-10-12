@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 12rem;
+  line-height: 12rem;
+  background-image: url(images/luke-richardson-dI7vfR1Bqcg-unsplash.jpg);
+  background-size: cover; /* covering all text and not repeating */
+  background-clip: text; /* deécoupe la zone du texte */
+  -webkit-background-clip: text;
+  /*prefixe vendeur. force le navigateur 
+  à utiliser des propriétés qu'ils n'ont pas encore completement implementé */
+  color: transparent;
+}
